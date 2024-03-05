@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T08:08:13 EST" name="Surefire suite" finished-at="2024-03-05T08:09:42 EST" duration-ms="89057">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T08:08:13 EST" name="Surefire test" finished-at="2024-03-05T08:09:42 EST" duration-ms="89057">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:08:36 EST" name="Setup" finished-at="2024-03-05T08:08:44 EST" duration-ms="7950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyHomePageTitleTest()[pri:1, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:08:44 EST" name="VerifyHomePageTitleTest" finished-at="2024-03-05T08:08:44 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitleTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:08:44 EST" name="CloseBrowser" finished-at="2024-03-05T08:08:45 EST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:08:45 EST" name="Setup" finished-at="2024-03-05T08:08:56 EST" duration-ms="11481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="FreeCRMLogoTest()[pri:2, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:08:56 EST" name="FreeCRMLogoTest" finished-at="2024-03-05T08:08:57 EST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeCRMLogoTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:08:57 EST" name="CloseBrowser" finished-at="2024-03-05T08:08:58 EST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:08:58 EST" name="Setup" finished-at="2024-03-05T08:09:06 EST" duration-ms="7799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyCorrectUserNameTest()[pri:3, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:06 EST" name="VerifyCorrectUserNameTest" finished-at="2024-03-05T08:09:07 EST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCorrectUserNameTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:07 EST" name="CloseBrowser" finished-at="2024-03-05T08:09:07 EST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:07 EST" name="Setup" finished-at="2024-03-05T08:09:15 EST" duration-ms="7860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DisplayAllSideBarLinks()[pri:4, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:15 EST" name="DisplayAllSideBarLinks" finished-at="2024-03-05T08:09:16 EST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplayAllSideBarLinks -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:16 EST" name="CloseBrowser" finished-at="2024-03-05T08:09:17 EST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:17 EST" name="Setup" finished-at="2024-03-05T08:09:25 EST" duration-ms="8037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyContactsLinkTest()[pri:5, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:25 EST" name="VerifyContactsLinkTest" finished-at="2024-03-05T08:09:26 EST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContactsLinkTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.HomePageTest@478190fc]" started-at="2024-03-05T08:09:26 EST" name="CloseBrowser" finished-at="2024-03-05T08:09:27 EST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+      <class name="com.qa.tests.ContactsPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.ContactsPageTest@14dd9eb7]" started-at="2024-03-05T08:08:13 EST" name="Setup" finished-at="2024-03-05T08:08:25 EST" duration-ms="11399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyContactsLabelTest()[pri:1, instance:com.qa.tests.ContactsPageTest@14dd9eb7]" started-at="2024-03-05T08:08:25 EST" name="verifyContactsLabelTest" finished-at="2024-03-05T08:08:25 EST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLabelTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.ContactsPageTest@14dd9eb7]" started-at="2024-03-05T08:08:25 EST" name="CloseBrowser" finished-at="2024-03-05T08:08:26 EST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.ContactsPageTest@14dd9eb7]" started-at="2024-03-05T08:08:26 EST" name="Setup" finished-at="2024-03-05T08:08:34 EST" duration-ms="8819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyCreateContactsbuttonTest()[pri:2, instance:com.qa.tests.ContactsPageTest@14dd9eb7]" started-at="2024-03-05T08:08:34 EST" name="verifyCreateContactsbuttonTest" finished-at="2024-03-05T08:08:34 EST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateContactsbuttonTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.ContactsPageTest@14dd9eb7]" started-at="2024-03-05T08:08:34 EST" name="CloseBrowser" finished-at="2024-03-05T08:08:35 EST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method signature="validateCreateNewContactTest(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:com.qa.tests.ContactsPageTest@14dd9eb7]" started-at="2024-03-05T08:08:36 EST" name="validateCreateNewContactTest" data-provider="getCRMTestData" finished-at="2024-03-05T08:08:36 EST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:812)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:737)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: java.lang.NullPointerException
+at com.qa.util.TestUtil.getTestData(TestUtil.java:45)
+at com.qa.tests.ContactsPageTest.getCRMTestData(ContactsPageTest.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContactTest -->
+      </class> <!-- com.qa.tests.ContactsPageTest -->
+      <class name="com.qa.tests.LoginPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:27 EST" name="Setup" finished-at="2024-03-05T08:09:30 EST" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginpageTitleTest()[pri:1, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:30 EST" name="LoginpageTitleTest" finished-at="2024-03-05T08:09:30 EST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginpageTitleTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:30 EST" name="CloseBrowser" finished-at="2024-03-05T08:09:30 EST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:30 EST" name="Setup" finished-at="2024-03-05T08:09:33 EST" duration-ms="3019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="FreeCRMLogoImageTest()[pri:2, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:33 EST" name="FreeCRMLogoImageTest" finished-at="2024-03-05T08:09:33 EST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeCRMLogoImageTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:33 EST" name="CloseBrowser" finished-at="2024-03-05T08:09:34 EST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:34 EST" name="Setup" finished-at="2024-03-05T08:09:37 EST" duration-ms="2970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="loginTest()[pri:3, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:37 EST" name="loginTest" finished-at="2024-03-05T08:09:42 EST" duration-ms="4872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:com.qa.tests.LoginPageTest@79e2c065]" started-at="2024-03-05T08:09:42 EST" name="CloseBrowser" finished-at="2024-03-05T08:09:42 EST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.qa.tests.LoginPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
