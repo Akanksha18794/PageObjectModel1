@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FreeCRMApplicationTestSuite]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerCRM"/>
-  </listeners>
-  <test thread-count="5" name="Free CRM Application Test Cases(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.ContactsPageTest">
+      <class name="com.qa.tests.DealsPageTest">
         <methods>
-          <include name="validateCreateNewContactTest"/>
-          <include name="Setup"/>
           <include name="CloseBrowser"/>
+          <include name="Setup"/>
+          <include name="verifyPipelineLabelTest"/>
         </methods>
-      </class> <!-- com.qa.tests.ContactsPageTest -->
+      </class> <!-- com.qa.tests.DealsPageTest -->
     </classes>
-  </test> <!-- Free CRM Application Test Cases(failed) -->
-</suite> <!-- Failed suite [FreeCRMApplicationTestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
