@@ -14,6 +14,21 @@ public class TasksPage extends TestBase{
 	@FindBy (linkText = "Board")
 	WebElement boardlabel;
 	
+	@FindBy (xpath = "//button[contains(text(),'Create')]")
+	WebElement createbutton;
+	
+	@FindBy (xpath = "//input[@name='title']")
+	WebElement title;
+	
+	@FindBy (name = "description")
+	WebElement description;
+	
+	@FindBy (name= "completion")
+	WebElement completion;
+	
+	@FindBy (xpath = "//button[contains(text(),'Save')]")
+	WebElement Save;
+	
 	public TasksPage() {
 		PageFactory.initElements(driver, this);		
 	}
@@ -24,5 +39,12 @@ public class TasksPage extends TestBase{
 	
 	public boolean verifyBoardlink() {
 		return boardlabel.isDisplayed();
+	}
+	
+	public void CreateNewTask (String ti, String de, String co) {
+		title.sendKeys(ti);
+		description.sendKeys(de);
+		completion.sendKeys(co);
+		Save.click();
 	}
 }

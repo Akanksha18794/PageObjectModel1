@@ -17,6 +17,24 @@ public class DealsPage extends TestBase{
 	@FindBy (linkText = "Board")
 	WebElement boardlabel;
 	
+	@FindBy (xpath = "//button[contains(text(),'Create')]")
+	WebElement createbutton;
+	
+	@FindBy (xpath = "//input[@name='title']")
+	WebElement title;
+	
+	@FindBy (name = "description")
+	WebElement description;
+	
+	@FindBy (name = "amount")
+	WebElement amount;
+	
+	@FindBy (name = "probability")
+	WebElement probability;
+	
+	@FindBy (xpath = "//button[contains(text(),'Save')]")
+	WebElement Save;
+	
 	public DealsPage() {
 		PageFactory.initElements(driver, this);		
 	}
@@ -31,5 +49,14 @@ public class DealsPage extends TestBase{
 	
 	public boolean verifyBoardlink() {
 		return boardlabel.isDisplayed();
+	}
+	
+	public void CreateNewDeal (String ti, String de, String am, String po) throws InterruptedException {
+		title.sendKeys(ti);
+		description.sendKeys(de);
+		amount.sendKeys(am);
+		probability.sendKeys(po);
+		Thread.sleep(2000);
+		Save.click();
 	}
 }

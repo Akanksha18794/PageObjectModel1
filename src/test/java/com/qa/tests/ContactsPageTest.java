@@ -45,18 +45,18 @@ public class ContactsPageTest extends TestBase{
 	}
 	
 	@DataProvider
-	public Object[][] getCRMTestData() throws InvalidFormatException{
+	public Object[][] getCRMTestData() {
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
 	
 	@Test (priority = 3, dataProvider="getCRMTestData")
-	public void validateCreateNewContactTest(String firstname, String lastname, String email) throws InterruptedException {
+	public void validateCreateNewContactTest(String firstname, String lastname, String email, String address, String city, String state) throws InterruptedException {
 		hp.clickonContactsLink();
 		Thread.sleep(2000);
 		hp.ClickOnCreateContactLink();
 		Thread.sleep(10000);
-		cp.CreateNewContact(firstname, lastname, email);
+		cp.CreateNewContact(firstname, lastname, email, address, city, state);
 	}
 	
 	@AfterMethod

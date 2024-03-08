@@ -74,5 +74,15 @@ public class HomePage extends TestBase{
     	 contactsLink.click();
     	 createbutton.click();
      }
+     
+     public void ClickOnCreateDealsLink() {
+    	 dealsLink.click();
+    	 createbutton.click();
+     }
+     
+     public void ClickOnCreateTasksLink() {
+    	 tasksLink.click();
+    	 createbutton.click();
+     }
 	
 }

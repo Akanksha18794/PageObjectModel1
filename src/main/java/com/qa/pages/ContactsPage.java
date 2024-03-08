@@ -30,6 +30,15 @@ public class ContactsPage extends TestBase{
 	@FindBy (xpath = "//input[@placeholder='Email address']")
 	WebElement email;
 	
+	@FindBy (xpath ="//input[@name='address']")
+	WebElement address;
+	
+	@FindBy (xpath ="//input[@name='city']")
+	WebElement city;
+	
+	@FindBy (xpath ="//input[@name='state']")
+	WebElement state;
+	
 	@FindBy (xpath = "//button[contains(text(),'Save')]")
 	WebElement Save;
 	
@@ -45,10 +54,14 @@ public class ContactsPage extends TestBase{
 		return createbutton.isDisplayed();
 	}
 	
-	public void CreateNewContact(String ftn, String ltn, String e) {
+	public void CreateNewContact(String ftn, String ltn, String e, String add, String ci, String st) throws InterruptedException {
 		firstname.sendKeys(ftn);
 		lastname.sendKeys(ltn);
 		email.sendKeys(e);
+		address.sendKeys(add);
+		city.sendKeys(ci);
+		state.sendKeys(st);
+		Thread.sleep(2000);
 		Save.click();
 	}
 	}
